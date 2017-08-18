@@ -1,0 +1,28 @@
+---
+currency: €
+
+# Store Prices and details
+store:
+  CARDIGAN:
+    code: CARDIGAN
+    name: Cardigan
+    price: 20.00
+  TSHIRT:
+    code: TSHIRT
+    name: T-Shirt
+    price: 10.00
+  TROUSERS:
+    code: TROUSERS
+    name: Trousers
+    price: 15.50
+
+# Discounts rules
+discounts:
+  cardigantwoforone:
+    type: CARDIGAN
+    group: 2
+    discount: 0.5
+  tshirtdiscountforthree:
+    type: TSHIRT
+    group: 3
+    discount: 0.1

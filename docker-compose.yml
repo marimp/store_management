@@ -1,0 +1,7 @@
+store_image:
+  image: storemanagement_dev:latest
+dev:
+  build: .
+  command: bash -c "cd /root/store; exec rake"
+  volumes:
+    - .:/root/sl-tools
